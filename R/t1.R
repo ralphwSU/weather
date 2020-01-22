@@ -493,7 +493,7 @@ getStationData <- function(stationID) {
 	 n = nchar(file)
          sid = substr(file, 1, n - m)
 	 if (sid == stationID) {
-	    print (file)
+	    #print (file)
 	    if (length(x) == 0) {
 	       x = getStationDataForYear(stationID, year)
 	    }
